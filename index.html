@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Restaurante</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f4f8;
+text-align:center;
+padding:40px;
+}
+
+.container{
+background:white;
+width:500px;
+margin:auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+button{
+background:#0066ff;
+color:white;
+border:none;
+padding:12px 20px;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0044aa;
+}
+
+ul{
+list-style:none;
+padding:0;
+margin-top:20px;
+}
+
+li{
+background:#e7efff;
+margin:10px;
+padding:12px;
+border-radius:6px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Flujo del Pedido del Restaurante</h1>
+
+<button onclick="iniciarProceso()">
+Iniciar proceso
+</button>
+
+<ul id="procesos"></ul>
+
+</div>
+
+<script src="dist/app.js"></script>
+
+</body>
+
+</html>
